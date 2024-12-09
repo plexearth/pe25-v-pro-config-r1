@@ -1,0 +1,362 @@
+{
+  "sysAppData": {
+    "editions": {
+      "PRO": {
+        "sessionInitConfig": "R1.Init.Session",
+        "helpUrl": "https://goto.plexearth.com/pe25-pro/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-pro/plugin/download",
+        "pricingUrl": "https://goto.plexearth.com/pe25-pro/plugin/pricing",
+        "activation": {
+          "canTrial": "true",
+          "trialRef": "36ABAB91C2CC459EB8FCBB4C0FF3764F",
+          "dlgActivationTitle": "Plex-Earth 2025 for [$HOST_PLATFORM_NAME]",
+          "dlgActivationText": "Join the Future of Imagery Today!",
+          "dlgActivationCodeLabel": "If you have already received a code enter it here",
+          "dlgActivationTrialText": "Our boosted trial period lets you see first hand the future of imagery in [$HOST_PLATFORM_NAME]!",
+          "dlgActivationTrialButton": "Start your 7-day free trial!",
+          "dlgTrialTitle": "Free Trial",
+          "dlgTrialText": "You must complete the registration to start your free trial!",
+          "onActivationSuccessMessage": "onActivationSuccessMessage",
+          "onTrialSuccessMessage": "onTrialSuccessMessage_Pro",
+          "onSubExpiredMessage": "onSubcriptionExpiredMessage",
+          "onTrialExpiredMessage": "onTrialExpiredMessage_Pro",
+          "onSwitchEditionMessage": "onSwitchEditionMessage_Pro"
+        }
+      },
+      "LITE": {
+        "sessionInitConfig": "R1.Init.Session",
+        "helpUrl": "https://goto.plexearth.com/pe25-lite/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-lite/plugin/download",
+        "pricingUrl": "https://goto.plexearth.com/pe25-lite/plugin/pricing",
+        "activation": {
+          "canTrial": "true",
+          "trialRef": "8D079E86DA0242089C2E533A81DADE93",
+          "dlgActivationTitle": "Plex-Earth Lite for [$HOST_PLATFORM_NAME]",
+          "dlgActivationText": "Join the Future of Imagery Today - For FREE!",
+          "dlgActivationCodeLabel": "For Enterprise-level Mass Deployments Only: Paste code below and click the 'Activate' button",
+          "dlgActivationTrialText": "Connect [$HOST_PLATFORM_NAME] with Google Earth, and boost your design workflow",
+          "dlgActivationTrialButton": "ACTIVATE FOR FREE NOW! CLICK HERE →",
+          "dlgTrialTitle": "Free Registration",
+          "dlgTrialText": "You must complete your registration on Plex-Earth Lite!",
+          "onActivationSuccessMessage": "onLiteActivationSuccessMessage",
+          "onTrialSuccessMessage": "onTrialSuccessMessage_Lite",
+          "onSubExpiredMessage": "onLiteSubscriptionExpiredMessage",
+          "onSwitchEditionMessage": "onSwitchEditionMessage_Lite"
+        }
+      }
+    },
+    "cuiVariations": {
+      "PRO": {
+        "mainRbnTabId": "ID_TAB_PXEARTH",
+        "ribbonTabs": {
+          "ID_TAB_PXEARTH": {
+            "name": "Plex-Earth Pro",
+            "panels": {
+              "PXID_PANEL_SESSION": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              },
+              "PXID_PANEL_CONTEXTUAL_DATA": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_RASTER_TOOLS": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_GE": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_SERVICE_NOSESS": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              }
+            }
+          }
+        },
+        "helpUrl": "https://goto.plexearth.com/pe25-pro/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-pro/plugin/download"
+      },
+      "BASIC": {
+        "mainRbnTabId": "ID_TAB_PXEARTH",
+        "ribbonTabs": {
+          "ID_TAB_PXEARTH": {
+            "name": "Plex-Earth Basic",
+            "panels": {
+              "PXID_PANEL_SESSION": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              },
+              "PXID_PANEL_CONTEXTUAL_DATA": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_RASTER_TOOLS": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_GE": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_SERVICE_NOSESS": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              }
+            }
+          }
+        },
+        "helpUrl": "https://goto.plexearth.com/pe25-pro/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-pro/plugin/download"
+      },
+      "LITE": {
+        "mainRbnTabId": "ID_TAB_PXEARTH",
+        "ribbonTabs": {
+          "ID_TAB_PXEARTH": {
+            "name": "Plex-Earth Lite",
+            "panels": {
+              "PXID_PANEL_SESSION": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              },
+              "PXID_PANEL_CONTEXTUAL_DATA_LITE": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_GE_LITE": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_RASTER_TOOLS_LITE": {
+                "isVisible": "true",
+                "isEnabled": "false"
+              },
+              "PXID_PANEL_SERVICE_NOSESS_LITE": {
+                "isVisible": "true",
+                "isEnabled": "true"
+              }
+            }
+          }
+        },
+        "helpUrl": "https://goto.plexearth.com/pe25-lite/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-lite/plugin/download"
+      }
+    }
+  },
+  "sysVars": {},
+  "sysStrings": {},
+  "sysConstants": {
+    "[$PROD_NAME]": "Plex-Earth 2025",
+    "[$PROD_VAR]": "PRO",
+    "[$PROD_REF]": "pe25-pro",
+    "[$URL_GLOBAL_CDN]": "https://pe25-app-cdn.plexearth360.com",
+    "[$URL_ROOT_CDN]": "[$.]/cdn",
+    "[$URL_ROOT_GOTO]": "https://goto.plexearth.com",
+    "[$URL_PAGE_GOTO_PLUGIN]": "[$URL_ROOT_GOTO]/[$PROD_REF]/plugin",
+    "[$URL_PAGE_HELP]": "[$URL_PAGE_GOTO_PLUGIN]/help",
+    "[$URL_PAGE_WHATSNEW]": "[$URL_PAGE_GOTO_PLUGIN]/whatsnew",
+    "[$URL_PAGE_ADDCREDITS]": "[$URL_PAGE_GOTO_PLUGIN]/addcredits",
+    "[$URL_PAGE_DOWNLOAD]": "[$URL_PAGE_GOTO_PLUGIN]/download",
+    "[$URL_PAGE_WELCOME_LEARNMORE]": "[$URL_PAGE_GOTO_PLUGIN]/welcome",
+    "[$URL_PAGE_PRICING]": "[$URL_PAGE_GOTO_PLUGIN]/pricing",
+    "[$URL_PAGE_UPGRADE]": "[$URL_PAGE_GOTO_PLUGIN]/upgrade",
+    "[$URL_PAGE_CONTACT_SALES]": "[$URL_PAGE_GOTO_PLUGIN]/sales",
+    "[$URL_PAGE_CONTACT_SUPPORT]": "[$URL_PAGE_GOTO_PLUGIN]/support",
+    "[$URL_PRODUCT]": "[$URL_PAGE_GOTO_PLUGIN]/website",
+    "[$EMAIL_SUPPORT]": "mailto:support@plexscape.com"
+  },
+  "sysConditionSets": {},
+  "sysSelections": {},
+  "sysCommands": {},
+  "sysCommandLimitSets": {},
+  "sysNamedActions": {},
+  "sysNamedFuncs": {},
+  "sysCampaigns": {},
+  "sysNotifs": {
+    "onActivationSuccessMessage": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "Plex-Earth has been activated successfully!",
+      "btnRight": {
+        "text": "Start!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "dlgRes": "true"
+      },
+      "title": "Welcome to Plex-Earth!"
+    },
+    "onSubcriptionExpiredMessage": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "<Grid VerticalAlignment='Center' MaxWidth='900'><TextBlock><Image Width='900' Source=''/></TextBlock><StackPanel><DockPanel Margin='24'><DockPanel.Background><SolidColorBrush Color='#101010' Opacity='0.9'/></DockPanel.Background><StackPanel Margin='24'><TextBlock Style='{DynamicResource H2}' Foreground='#FFF' TextWrapping='Wrap'>Your Subscription Has Expired – Renew Now!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF' TextWrapping='Wrap'>Keep up with your competitive advantage!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF'><Run>Need assistance or more information?&#160; </Run><Hyperlink Foreground='#DD6B45' NavigateUri='[$URL_PAGE_CONTACT_SUPPORT]'>Contact Support</Hyperlink></TextBlock></StackPanel></DockPanel></StackPanel></Grid>",
+      "btnLeft": {
+        "text": "Renew now!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "action": {
+          "type": "gotoUrl",
+          "url": "[$URL_PAGE_UPGRADE]?utm_source=[$HOST_PLATFORM_REF]-[$PROD_REF]&utm_medium=in_app_message&utm_term=on_trial_expired&utm_campaign=upgrade&wky=[$wky]"
+        }
+      },
+      "btnRight": {
+        "text": "Close",
+        "dlgRes": "false"
+      },
+      "btnAction": {
+        "text": "I already have an Activation Code",
+        "backClr": "#F5F5F5",
+        "foreClr": "#101010",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"sendStringToExecute\",\"cmd\":\".PXV_ACTIVATE_CODE\\n\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      }
+    },
+    "onTrialSuccessMessage_Pro": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "Your Plex-Earth 2025 Free Trial has just started!",
+      "btnRight": {
+        "text": "Start!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "dlgRes": "true"
+      },
+      "title": "Welcome to Plex-Earth!"
+    },
+    "onTrialExpiredMessage_Pro": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "<Grid VerticalAlignment='Center' MaxWidth='900'><TextBlock><Image Width='900' Source=''/></TextBlock><StackPanel><DockPanel Margin='24'><DockPanel.Background><SolidColorBrush Color='#101010' Opacity='0.9'/></DockPanel.Background><StackPanel Margin='24'><TextBlock Style='{DynamicResource H2}' Foreground='#FFF' TextWrapping='Wrap'>Your Free Trial Has Ended – What’s Next?</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF' TextWrapping='Wrap'><LineBreak/>You have two options:<LineBreak/>1) <Bold>Upgrade to one of our service plans</Bold><LineBreak/>&#160;&#160;&#160;For full access to all features.<LineBreak/>2) <Bold>Continue with Plex-Earth Lite</Bold><LineBreak/>&#160;&#160;&#160;Our free edition, to keep using basic features.<LineBreak/></TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF'><Run>Need assistance or more information?&#160; </Run><Hyperlink Foreground='#DD6B45' NavigateUri='[$URL_PAGE_CONTACT_SUPPORT]'>Contact Support</Hyperlink></TextBlock></StackPanel></DockPanel></StackPanel></Grid>",
+      "btnLeft": {
+        "text": "✓Continue with Lite",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"switchEdition\",\"target\":\"LITE\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      },
+      "btnRight": {
+        "text": "↑ See all plans!",
+        "backClr": "#DD6B45",
+        "foreClr": "#FFF",
+        "action": {
+          "type": "gotoUrl",
+          "url": "[$URL_PAGE_UPGRADE]?utm_source=[$HOST_PLATFORM_REF]-[$PROD_REF]&utm_medium=in_app_message&utm_term=on_trial_expired&utm_campaign=upgrade&wky=[$wky]"
+        }
+      },
+      "btnAction": {
+        "text": "I already have an Activation Code",
+        "backClr": "#F5F5F5",
+        "foreClr": "#101010",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"sendStringToExecute\",\"cmd\":\".PXV_ACTIVATE_CODE\\n\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      },
+      "title": "Your Free Trial Has Ended – Keep Designing with Plex-Earth!"
+    },
+    "onSwitchEditionMessage_Pro": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "<Grid VerticalAlignment='Center' MaxWidth='900'><TextBlock><Image Width='900' Source=''/></TextBlock><StackPanel><DockPanel Margin='24'><DockPanel.Background><SolidColorBrush Color='#101010' Opacity='0.9'/></DockPanel.Background><StackPanel Margin='24'><TextBlock Style='{DynamicResource H2}' Foreground='#FFF' TextWrapping='Wrap'>Switch To Plex-Earth Lite!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF' TextWrapping='Wrap'>Our free edition, to keep using basic features.<LineBreak/></TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF'><Run>Need assistance or more information?&#160; </Run><Hyperlink Foreground='#DD6B45' NavigateUri='[$URL_PAGE_CONTACT_SUPPORT]'>Contact Support</Hyperlink></TextBlock></StackPanel></DockPanel></StackPanel></Grid>",
+      "btnLeft": {
+        "text": "Cancel",
+        "dlgRes": "false"
+      },
+      "btnRight": {
+        "text": "✓Switch to Lite!",
+        "backClr": "#DD6B45",
+        "foreClr": "#FFF",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"switchEdition\",\"target\":\"LITE\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      },
+      "title": "Switch To Plex-Earth Lite!"
+    },
+    "onLiteActivationSuccessMessage": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "Plex-Earth Lite has been activated successfully!",
+      "btnRight": {
+        "text": "Start!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "dlgRes": "true"
+      },
+      "title": "Welcome to Plex-Earth Lite!"
+    },
+    "onLiteSubscriptionExpiredMessage": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "<Grid VerticalAlignment='Center' MaxWidth='900'><TextBlock><Image Width='900' Source=''/></TextBlock><StackPanel><DockPanel Margin='24'><DockPanel.Background><SolidColorBrush Color='#101010' Opacity='0.9'/></DockPanel.Background><StackPanel Margin='24'><TextBlock Style='{DynamicResource H2}' Foreground='#FFF' TextWrapping='Wrap'>Your Subscription Has Expired – Renew Now!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF' TextWrapping='Wrap'>Keep up with your competitive advantage!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF'><Run>Need assistance or more information?&#160; </Run><Hyperlink Foreground='#DD6B45' NavigateUri='[$URL_PAGE_CONTACT_SUPPORT]'>Contact Support</Hyperlink></TextBlock></StackPanel></DockPanel></StackPanel></Grid>",
+      "btnLeft": {
+        "text": "Renew now!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "action": {
+          "type": "gotoUrl",
+          "url": "[$URL_PAGE_UPGRADE]?utm_source=[$HOST_PLATFORM_REF]-[$PROD_REF]&utm_medium=in_app_message&utm_term=on_lite_expired&utm_campaign=upgrade&wky=[$wky]"
+        }
+      },
+      "btnRight": {
+        "text": "Close",
+        "dlgRes": "false"
+      },
+      "btnAction": {
+        "text": "I already have an Activation Code",
+        "backClr": "#F5F5F5",
+        "foreClr": "#101010",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"sendStringToExecute\",\"cmd\":\".PXV_ACTIVATE_CODE\\n\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      }
+    },
+    "onTrialSuccessMessage_Lite": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "Your Plex-Earth Lite has just started!",
+      "btnRight": {
+        "text": "Start!",
+        "backClr": "#000",
+        "foreClr": "#FFF",
+        "dlgRes": "true"
+      },
+      "title": "Welcome to Plex-Earth Lite!"
+    },
+    "onSwitchEditionMessage_Lite": {
+      "type": "dialog",
+      "isModal": "true",
+      "content": "<Grid VerticalAlignment='Center' MaxWidth='900'><TextBlock><Image Width='900' Source=''/></TextBlock><StackPanel><DockPanel Margin='24'><DockPanel.Background><SolidColorBrush Color='#101010' Opacity='0.9'/></DockPanel.Background><StackPanel Margin='24'><TextBlock Style='{DynamicResource H2}' Foreground='#FFF' TextWrapping='Wrap'>Upgrade To Plex-Earth Pro!</TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF' TextWrapping='Wrap'>Get everything with our full edition.<LineBreak/></TextBlock><TextBlock Style='{DynamicResource H4}' Foreground='#FFF'><Run>Need assistance or more information?&#160; </Run><Hyperlink Foreground='#DD6B45' NavigateUri='[$URL_PAGE_CONTACT_SUPPORT]'>Contact Support</Hyperlink></TextBlock></StackPanel></DockPanel></StackPanel></Grid>",
+      "btnLeft": {
+        "text": "Cancel",
+        "dlgRes": "false"
+      },
+      "btnRight": {
+        "text": "✓Switch to Pro!",
+        "backClr": "#DD6B45",
+        "foreClr": "#FFF",
+        "action": {
+          "type": "custom",
+          "customData": "{\"type\":\"switchEdition\",\"target\":\"PRO\"}"
+        },
+        "dlgRes": "true",
+        "runAfterDlg": "true"
+      },
+      "title": "Upgrade To Plex-Earth Pro!"
+    }
+  },
+  "sysRefs": {}
+}

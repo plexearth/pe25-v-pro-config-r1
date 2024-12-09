@@ -1,0 +1,38 @@
+{
+  "sysAppData": {
+    "previewImageryProvId": "1B3FB1EC-80AA-428F-A04F-9308E566FD35",
+    "previewTerrainProvId": "5610CB2F-9CA4-4659-8618-8AB7FA4A7C27",
+    "reverseGeocodingProvId": "977496FF-B5A5-4260-A02D-DE7E4F076E25",
+    "defaultLock": "true",
+    "defaultZoom": "19",
+    "minZoom": "16",
+    "maxZoom": "20",
+    "permissions": {
+      "canImagery": "true",
+      "canTerrain": "true",
+      "canHistorical": "true",
+      "canDeepPreview": "true",
+      "showPremiumSuggestions": "true"
+    },
+    "resources": {
+      "onNewPoi": [
+        "Global.Pois"
+      ],
+      "onNewSiteArea": [
+        "Global.SiteAreas"
+      ]
+    }
+  },
+  "sysVars": {},
+  "sysStrings": {},
+  "sysConstants": {},
+  "sysConditionSets": {},
+  "sysSelections": {},
+  "sysCommands": {},
+  "sysCommandLimitSets": {},
+  "sysNamedActions": {},
+  "sysNamedFuncs": {},
+  "sysCampaigns": {},
+  "sysNotifs": {},
+  "sysRefs": {}
+}
