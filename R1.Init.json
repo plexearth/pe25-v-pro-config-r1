@@ -6,10 +6,12 @@
         "helpUrl": "https://goto.plexearth.com/pe25-pro/plugin/help",
         "downloadUrl": "https://goto.plexearth.com/pe25-pro/plugin/download",
         "pricingUrl": "https://goto.plexearth.com/pe25-pro/plugin/pricing",
+        "canSwitchEdition": "true",
+        "onSwitchEditionMessage": "onSwitchEditionMessage_Pro",
         "activation": {
           "canTrial": "true",
-          "trialRef": "36ABAB91C2CC459EB8FCBB4C0FF3764F",
-          "dlgActivationTitle": "Plex-Earth 2025 for [$HOST_PLATFORM_NAME]",
+          "trialRef": "F103737B054E4365BE0733B007821BE8",
+          "dlgActivationTitle": "Plex-Earth Pro for [$HOST_PLATFORM_NAME]",
           "dlgActivationText": "Join the Future of Imagery Today!",
           "dlgActivationCodeLabel": "If you have already received a code enter it here",
           "dlgActivationTrialText": "Our boosted trial period lets you see first hand the future of imagery in [$HOST_PLATFORM_NAME]!",
@@ -19,8 +21,30 @@
           "onActivationSuccessMessage": "onActivationSuccessMessage",
           "onTrialSuccessMessage": "onTrialSuccessMessage_Pro",
           "onSubExpiredMessage": "onSubcriptionExpiredMessage",
-          "onTrialExpiredMessage": "onTrialExpiredMessage_Pro",
-          "onSwitchEditionMessage": "onSwitchEditionMessage_Pro"
+          "onTrialExpiredMessage": "onTrialExpiredMessage_Pro"
+        }
+      },
+      "BASIC": {
+        "sessionInitConfig": "R1.Init.Session",
+        "helpUrl": "https://goto.plexearth.com/pe25-pro/plugin/help",
+        "downloadUrl": "https://goto.plexearth.com/pe25-pro/plugin/download",
+        "pricingUrl": "https://goto.plexearth.com/pe25-pro/plugin/pricing",
+        "canSwitchEdition": "true",
+        "onSwitchEditionMessage": "onSwitchEditionMessage_Basic",
+        "activation": {
+          "canTrial": "true",
+          "trialRef": "8BF9499DCC0040DD989DDF8AA58A0C00",
+          "dlgActivationTitle": "Plex-Earth Basic for [$HOST_PLATFORM_NAME]",
+          "dlgActivationText": "Join the Future of Imagery Today!",
+          "dlgActivationCodeLabel": "If you have already received a code enter it here",
+          "dlgActivationTrialText": "Our boosted trial period lets you see first hand the future of imagery in [$HOST_PLATFORM_NAME]!",
+          "dlgActivationTrialButton": "Start your 7-day free trial!",
+          "dlgTrialTitle": "Free Trial",
+          "dlgTrialText": "You must complete the registration to start your free trial!",
+          "onActivationSuccessMessage": "onActivationSuccessMessage",
+          "onTrialSuccessMessage": "onTrialSuccessMessage_Pro",
+          "onSubExpiredMessage": "onSubcriptionExpiredMessage",
+          "onTrialExpiredMessage": "onTrialExpiredMessage_Pro"
         }
       },
       "LITE": {
@@ -28,9 +52,11 @@
         "helpUrl": "https://goto.plexearth.com/pe25-lite/plugin/help",
         "downloadUrl": "https://goto.plexearth.com/pe25-lite/plugin/download",
         "pricingUrl": "https://goto.plexearth.com/pe25-lite/plugin/pricing",
+        "canSwitchEdition": "true",
+        "onSwitchEditionMessage": "onSwitchEditionMessage_Lite",
         "activation": {
           "canTrial": "true",
-          "trialRef": "8D079E86DA0242089C2E533A81DADE93",
+          "trialRef": "B9152D0C8B6B42A58311614DECDAE12E",
           "dlgActivationTitle": "Plex-Earth Lite for [$HOST_PLATFORM_NAME]",
           "dlgActivationText": "Join the Future of Imagery Today - For FREE!",
           "dlgActivationCodeLabel": "For Enterprise-level Mass Deployments Only: Paste code below and click the 'Activate' button",
@@ -40,8 +66,7 @@
           "dlgTrialText": "You must complete your registration on Plex-Earth Lite!",
           "onActivationSuccessMessage": "onLiteActivationSuccessMessage",
           "onTrialSuccessMessage": "onTrialSuccessMessage_Lite",
-          "onSubExpiredMessage": "onLiteSubscriptionExpiredMessage",
-          "onSwitchEditionMessage": "onSwitchEditionMessage_Lite"
+          "onSubExpiredMessage": "onLiteSubscriptionExpiredMessage"
         }
       }
     },
@@ -97,7 +122,7 @@
                 "isEnabled": "false"
               },
               "PXID_PANEL_GE": {
-                "isVisible": "true",
+                "isVisible": "false",
                 "isEnabled": "false"
               },
               "PXID_PANEL_SERVICE_NOSESS": {
@@ -147,10 +172,10 @@
   "sysVars": {},
   "sysStrings": {},
   "sysConstants": {
-    "[$PROD_NAME]": "Plex-Earth 2025",
+    "[$PROD_NAME]": "Plex-Earth Pro",
     "[$PROD_VAR]": "PRO",
     "[$PROD_REF]": "pe25-pro",
-    "[$URL_GLOBAL_CDN]": "https://pe25-app-cdn.plexearth360.com",
+    "[$URL_GLOBAL_CDN]": "https://pe25-v-app-cdn.plexearth360.com",
     "[$URL_ROOT_CDN]": "[$.]/cdn",
     "[$URL_ROOT_GOTO]": "https://goto.plexearth.com",
     "[$URL_PAGE_GOTO_PLUGIN]": "[$URL_ROOT_GOTO]/[$PROD_REF]/plugin",
