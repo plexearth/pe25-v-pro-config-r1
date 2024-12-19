@@ -66,7 +66,8 @@
       "canCreateImageryMosaic": "[var:[CAN_CREATE_IMAGERY_MOSAIC]]",
       "canCreateImageryRaster": "[var:[CAN_CREATE_IMAGERY_RASTER]]",
       "canCreateImageryTimeline": "[var:[CAN_CREATE_IMAGERY_TIMELINE]]",
-      "canPolygonalArea": "[var:[CAN_POLYGONAL_AREAS]]"
+      "canPolygonalArea": "[var:[CAN_POLYGONAL_AREAS]]",
+      "hasCui": "[var:[HAS_CUI]]"
     },
     "events": {
       "onSignIn": "onSignIn",
@@ -74,30 +75,8 @@
       "onAddCredits": "onAddCredits",
       "onServicePlans": "onServicePlans"
     },
-    "commerce": {
-      "defaultCurrency": "EUR",
-      "currencies": {
-        "USD": {
-          "name": "USD",
-          "symbol": "$",
-          "format": "${0}",
-          "rate": "1.10"
-        },
-        "EUR": {
-          "name": "EUR",
-          "symbol": "$",
-          "format": "€{0}",
-          "rate": "1.0"
-        },
-        "INR": {
-          "name": "INR",
-          "symbol": "₹",
-          "format": "₹{0}",
-          "rate": "82.5"
-        }
-      }
-    },
     "cui": {
+      "isAvailable": "true",
       "mainRbnTabId": "ID_TAB_PXEARTH",
       "ribbonTabs": {
         "ID_TAB_PXEARTH": {

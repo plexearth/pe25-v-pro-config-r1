@@ -1,10 +1,10 @@
 {
   "sysAppData": {
     "defaultProvIds": [
-      "1B3FB1EC-80AA-428F-A04F-9308E566FD35"
+      "[$CORE_DEFAULT_IMAGERY_PROVIDER]"
     ],
-    "dynamicProvId": "1B3FB1EC-80AA-428F-A04F-9308E566FD35",
-    "quickGeoProvId": "1B3FB1EC-80AA-428F-A04F-9308E566FD35",
+    "dynamicProvId": "[$CORE_DEFAULT_IMAGERY_PROVIDER]",
+    "quickGeoProvId": "[$CORE_DEFAULT_IMAGERY_PROVIDER]",
     "nearmapVerticalId": "6E4C1F7C-9CFD-4A94-87A0-93A5E93C3F5F",
     "maxTilesPerMosaic": "500",
     "defaultZoom": "19",
@@ -119,7 +119,7 @@
         "msgNotEnabled": "ON_MAPEXPLORER_NOT_INSTALLED"
       },
       "1B3FB1EC-80AA-428F-A04F-9308E566FD35": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_GOOGLE_MAPS] ?? true",
         "isEnabled": "true",
         "name": "Google Maps",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛩 Aerial</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛰 Satellite</TextBlock> | Global Coverage",
@@ -193,7 +193,7 @@
         }
       },
       "3125DA03-6583-442C-9215-560F30D663CC": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_AIRBUS] ?? true",
         "isEnabled": "true",
         "name": "Airbus",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFBF00' Foreground='#101010'>💎 Premium</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛰 Satellite</TextBlock> | Global Coverage",
@@ -212,7 +212,7 @@
         "hasGlobalCoverage": "true",
         "tileOverlap": "0.001,0.05",
         "useCloud": "true",
-        "creditsPerImage": "[var:[VARTAG_AIRBUS_CREDITS_PER_TILE]]",
+        "creditsPerImage": "[$CORE_CREDITS_PER_IMAGE_AIRBUS]",
         "permissions": {
           "canDynamicView": "false",
           "canImageryAsMosaic": "true",
@@ -242,7 +242,7 @@
         }
       },
       "4B09857B-FE31-4854-91AA-12C9F85EC193": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_MAXAR] ?? true",
         "isEnabled": "true",
         "name": "Maxar",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFBF00' Foreground='#101010'>💎 Premium</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛰 Satellite</TextBlock> | Global Coverage",
@@ -260,7 +260,7 @@
         "isAutoSuggested": "false",
         "hasGlobalCoverage": "true",
         "useCloud": "true",
-        "creditsPerImage": "[var:[VARTAG_MAXAR_CREDITS_PER_TILE]]",
+        "creditsPerImage": "[$CORE_CREDITS_PER_IMAGE_MAXAR]",
         "permissions": {
           "canDynamicView": "false",
           "canImageryAsMosaic": "true",
@@ -290,7 +290,7 @@
         }
       },
       "6E4C1F7C-9CFD-4A94-87A0-93A5E93C3F5F": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_NEARMAP] ?? true",
         "isEnabled": "[var:[HAS_PREMIUM]]",
         "name": "Nearmap",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFBF00' Foreground='#101010'>💎 Premium</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛩 Aerial</TextBlock> | US - Australia - New Zealand | Urban Areas",
@@ -311,7 +311,7 @@
         "tileOverlap": "0.001,0.05",
         "allowCustomKey": "[var:[VARTAG_NEARMAP_CUSTOM_KEY]]",
         "useCloud": "true",
-        "creditsPerImage": "[var:[VARTAG_NEARMAP_CREDITS_PER_TILE]]",
+        "creditsPerImage": "[$CORE_CREDITS_PER_IMAGE_NEARMAP]",
         "permissions": {
           "canDynamicView": "false",
           "canImageryAsMosaic": "true",
@@ -338,7 +338,7 @@
         "msgNotEnabled": "ON_NEARMAP_NOT_ENABLED"
       },
       "C78E7604-3805-43E9-B009-101E157C3BEA": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_HEXAGON] ?? true",
         "isEnabled": "[var:[HAS_PREMIUM]]",
         "name": "Hexagon",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFBF00' Foreground='#101010'>💎 Premium</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛩 Aerial</TextBlock> | US &amp; Europe | Country/State Wide",
@@ -358,7 +358,7 @@
         "dsId": "NA_WAC",
         "dsName": "North America 30cm resolution",
         "useCloud": "true",
-        "creditsPerImage": "[var:[VARTAG_HEXAGON_CREDITS_PER_TILE]]",
+        "creditsPerImage": "[$CORE_CREDITS_PER_IMAGE_HEXAGON]",
         "permissions": {
           "canDynamicView": "false",
           "canImageryAsMosaic": "true",
@@ -385,7 +385,7 @@
         "msgNotEnabled": "ON_HEXAGON_NOT_ENABLED"
       },
       "977496FF-B5A5-4260-A02D-DE7E4F076E25": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_AZURE_MAPS] ?? true",
         "isEnabled": "true",
         "name": "Azure Maps",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛩 Aerial</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛰 Satellite</TextBlock> | Global Coverage",
@@ -430,7 +430,7 @@
         }
       },
       "1A832FEE-0533-466A-829F-573AFFFEF3A4": {
-        "isAvail": "true",
+        "isAvail": "[$CORE_SWITCH_GOOGLE_MAPS] ?? true",
         "isEnabled": "true",
         "name": "Google Maps",
         "desc": "<TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛩 Aerial</TextBlock> <TextBlock FontSize='8' Padding='4 2' Background='#FFF' Foreground='#101010'>🛰 Satellite</TextBlock> | Global Coverage",

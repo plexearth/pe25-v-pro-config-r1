@@ -1,7 +1,7 @@
 {
   "sysAppData": {
     "defaultProvIds": [
-      "5610CB2F-9CA4-4659-8618-8AB7FA4A7C27"
+      "[$CORE_DEFAULT_TERRAIN_PROVIDER]"
     ],
     "legacyDummyName": "INSTALL THE LATEST PLEX-EARTH - This drawing contains elements from a newer version",
     "legacyDummyIconUrl": "[$URL_GLOBAL_CDN]/assets/app/logo.png",
